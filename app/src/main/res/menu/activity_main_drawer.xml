@@ -34,5 +34,19 @@
                 android:title="@string/menu_send" />
         </menu>
     </item>
+    <group />
+
+    <item android:title="Hello">
+        <menu>
+            <item
+                android:id="@+id/nav_hello"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_hello" />
+            <item
+                android:id="@+id/nav_world"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_world" />
+        </menu>
+    </item>
 
 </menu>
